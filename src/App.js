@@ -2,6 +2,9 @@ import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 // nav folder
 import Navbar from './nav/Navbar';
 import SideNav from './nav/SideNav';
+
+// pages
+import Categories from './pages/Categories';
 import './App.css';
 
 function App() {
@@ -10,12 +13,12 @@ function App() {
       <BrowserRouter>
       {/*Navbar*/}
       
-      <SideNav />
+      
       <Navbar />
 
       <Routes>
         {/* Format <Route path="/" exact element = {<Home />} /> */}
-
+        <Route path = "/" exact element = {<Categories />} />
 
         {/* Redirect to /not-found for all other routes */}
           {/* <Route path="*" element={<Navigate to="/not-found" />} /> */}
