@@ -4,6 +4,9 @@
 
 nav {
   background-color: var(--navbar-bg);
+  display: flex;
+  flex-direction: row;
+  
 }
  .sidebar {
    height: 100vh;

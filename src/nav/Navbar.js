@@ -1,9 +1,12 @@
+import Space from '../banners/space.jpg';
+import User from '../banners/user.jpg';
+
 export default function Navbar () {
     return (
         <div className="nav">
             <nav>
               <span className="logo">
-                <img src="" />
+                <img src={Space} />
               </span>
               <form>
                 <input type="text" className="form-control"
@@ -16,7 +19,7 @@ export default function Navbar () {
 </svg>
               </span>
               <span className="profile">
-                <img src="" />
+                <img src={User} />
               </span>
               <span className="drop-down">
                 Account <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
