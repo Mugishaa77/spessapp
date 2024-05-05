@@ -51,7 +51,7 @@ nav {
 
 .logo img,
 .profile img {
-  height: 50px;
+  height: 60px;
   border-radius: 50px;
 }
 
@@ -98,7 +98,6 @@ nav {
 /* SideNav */
 .sidebar {
   height: 100vh;
-  /* Full height */
   width: 250px;
   /* Width of sidebar */
   position: absolute;
@@ -132,15 +131,19 @@ nav {
   color: var(--spaceapp-green);
 }
 
+.sidebar .submenu {
+  font-size: 18px;
+  margin-left: 3rem;
+}
 
 /* Standard Measurements for each page */
-.categories {
+.categories, .mobile, .messages {
   display: flex;
   background-color: var(--spaceapp-bg);
   margin-left: 250px;
 }
 
-.middle {
+.middle, .post, .inbox {
   flex: 4;
   padding-top: 2rem;
 }

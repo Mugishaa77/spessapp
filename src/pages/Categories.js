@@ -1,7 +1,7 @@
 import one from '../images/one.jfif';
 import two from '../images/two.jfif';
 import three from '../images/three.jfif';
-import feed from '../images/feed.jfif';
+import End from '../components/End';
 
 export default function Categories () {
     return (
@@ -126,36 +126,10 @@ export default function Categories () {
             </div>
             </div>
             </div>
-            <div className="end inter-text">
-                <h5>Feeds</h5>
-              <div className="end-inner">  
-                <div >
-                    <figure className="feed">
-                    <img src={one}/>
-                    <figcaption>Title</figcaption></figure>
-                    </div>
-           <figure>
-            <h6>Title</h6>
-                <img className="f"src={feed}/>
-                <figcaption className="ann inter-small">Lorem ipsum dolor sit amet, 
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</figcaption>
-            </figure>
-            <button>View Comments </button>
-            <form>
-                <label className="inter-text">Enter Your Comment</label>
-                <hr/>
-    <textarea type="text"
-    name="messageItem"
-    className="form-control"
-    value=""
-    onChange="" 
-    rows="1"
-    placeholder="comment"></textarea>
-
-            </form>
-            <hr/>
+            <div className="end">
+                <End />
             </div>
- </div>
+            
         </div>
     );
 }

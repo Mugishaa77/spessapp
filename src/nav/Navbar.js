@@ -10,7 +10,7 @@ const [isOpen, setIsOpen] = useState(false);
   };
 
     return (
-        <div className="nav">
+        <div className="nav inter-text">
             <nav>
               <ul className="nav-items">
               <li className="logo">
