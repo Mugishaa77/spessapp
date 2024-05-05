@@ -11,10 +11,11 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      {/*Navbar*/}
+        {/*Navbar*/}
       
       
       <Navbar />
+      <SideNav />
 
       <Routes>
         {/* Format <Route path="/" exact element = {<Home />} /> */}
