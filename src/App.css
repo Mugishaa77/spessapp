@@ -24,10 +24,19 @@
     "slnt" 0;
 }
 
+.inter-small {
+  font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
 
 /* Navbar Horizontal */
 nav {
-  height: 70px;
+  height: 80px;
   background-color: var(--navbar-bg);
   width: 100%;
   color: white;
@@ -47,12 +56,12 @@ nav {
 }
 
 .logo img {
-  height: 70px;
+  height: 80px;
 }
 
 .nav form {
   padding: 1rem;
-  width: 450px;
+  width: 550px;
   color: var(--navbar-bg);
 }
 
@@ -92,7 +101,7 @@ nav {
   /* Full height */
   width: 250px;
   /* Width of sidebar */
-  position: fixed;
+  position: absolute;
   /* Fixed position */
   top: 0;
   left: 0;
@@ -100,7 +109,7 @@ nav {
   /* Sidebar background color */
   padding-left: 2rem;
   padding-top: 4rem;
-  margin-top: 70px;
+  margin-top: 80px;
  
 }
 
@@ -116,6 +125,7 @@ nav {
   text-decoration: none;
   color: var(--spaceapp-grey);
   line-height: 1.5em;
+  font-size: 18px;
 }
 
 .sidebar a:hover {
@@ -137,29 +147,41 @@ nav {
 
 .cat {
   padding-top: 1rem;
+  width: 80%;
+  margin: 0 auto;
+
 }
 
 .cat h2, .fav h2, .viewed h2 {
   color: var(--spaceapp-green);
   font-size: 30px;
+  padding: 1rem;
 }
 .icons {
   display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 2rem;
+    grid-gap: 2px;
+    padding: 1rem;
     /* Adjust as needed */
 }
 
 .icons figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 0;
-  padding: 1rem;
+  padding-bottom: 1rem;
 }
 
 .icons figcaption {
   color: var(--spaceapp-grey);
   text-transform: capitalize;
   text-align: center;
-  display: block;
+    margin-bottom: 0;
+    /* Remove any default margin */
+ 
+  
 }
 
 .fav{
@@ -183,8 +205,13 @@ nav {
 .end {
   flex: 1;
   padding: 1rem;
-  display: flex;
+  
+}
+
+.end-inner {
+display: flex;
   flex-direction: column;
+  padding: 1rem;
 }
 
 .end h5 {
@@ -196,8 +223,53 @@ nav {
   flex-direction: row;
 }
 
-.end .feed img {
-  height: 30px;
-    border-radius: 50px;
+.feed figcaption {
+  padding: 1rem;
+  padding-bottom: 0;
 }
 
+.end .feed img {
+  height: 40px;
+    border-radius: 50px;
+    width: 40px;
+}
+
+.end button {
+  background-color: var(--navbar-bg);
+  color: var(--spaceapp-bg);
+  border-radius: 10px;
+  border: 1px solid var(--navbar-bg);
+  width: 140px;
+  margin-left: 0;
+  opacity: 1;
+}
+
+.end button:hover {
+  color: var(--navbar-bg);
+  background-color: var(--spaceapp-bg);
+
+}
+
+.end .f {
+  height: 180px;
+    width: 250px;
+    border-radius: 10px;
+    
+}
+
+.end .ann {
+  color:var(--spaceapp-grey);
+  font-size: 14px;
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.end form {
+  padding-top: 1rem;
+}
+
+.end form label {
+  color: var(--spaceapp-grey);
+  font-size: 16px;
+  padding-bottom: 0;
+}
