@@ -9,7 +9,7 @@ export default function Categories () {
             <div className="middle">
                 <div className="cat">
             <h2 className="inter-title">Categories</h2>
-            <div className="icons inter-title">
+            <div className="icons inter-text">
                 <figure>
                     <svg width="100" height="80" viewBox="0 0 124 97" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.5" y="0.5" width="123" height="95.0205" rx="7.5" fill="#F5F5F5" stroke="#006766"/>
@@ -99,7 +99,7 @@ export default function Categories () {
             </div>
 </div>
 <div className="fav">
-            <h2 className="inter-titles">Favourites</h2>
+            <h2 className="inter-title">Favourites</h2>
             <div className="favs">
                 <img className="" src={one} alt="fav" />
                  <img className="" src={two} alt="fav" />
@@ -108,7 +108,7 @@ export default function Categories () {
             </div>
             </div>
 <div className="viewed">
-            <h2 className="inter-titles">Most Viewed</h2>
+            <h2 className="inter-title">Most Viewed</h2>
             <div className="most-viewed">
                 <img className="" src={one} alt="fav" />
                  <img className="" src={two} alt="fav" />

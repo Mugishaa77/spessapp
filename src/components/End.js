@@ -3,7 +3,7 @@ import feed from '../images/feed.jfif';
 
 export default function End () {
     return (
-        <div className="end inter-text">
+        <div className="endd inter-text">
                 <h5>Feeds</h5>
               <div className="end-inner">  
                 <div >
@@ -27,7 +27,7 @@ export default function End () {
     value=""
     onChange="" 
     rows="1"
-    placeholder="comment"></textarea>
+    placeholder="Comment"></textarea>
 
             </form>
             <hr/>

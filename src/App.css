@@ -9,7 +9,7 @@
 .inter-title {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
@@ -205,7 +205,7 @@ nav {
     /* Adjust as needed */
 }
 
-.end {
+.end, .space-end {
   flex: 1;
   padding: 1rem;
   
@@ -217,27 +217,27 @@ display: flex;
   padding: 1rem;
 }
 
-.end h5 {
+.endd h5 {
   color: var(--spaceapp-green);
 }
 
-.end .feed {
+.endd .feed {
   display: flex;
   flex-direction: row;
 }
 
-.feed figcaption {
+.endd .feed figcaption {
   padding: 1rem;
   padding-bottom: 0;
 }
 
-.end .feed img {
+.endd .feed img {
   height: 40px;
     border-radius: 50px;
     width: 40px;
 }
 
-.end button {
+.endd button {
   background-color: var(--navbar-bg);
   color: var(--spaceapp-bg);
   border-radius: 10px;
@@ -247,32 +247,66 @@ display: flex;
   opacity: 1;
 }
 
-.end button:hover {
+.endd button:hover {
   color: var(--navbar-bg);
   background-color: var(--spaceapp-bg);
 
 }
 
-.end .f {
+.endd .f {
   height: 180px;
     width: 250px;
     border-radius: 10px;
     
 }
 
-.end .ann {
+.endd .ann {
   color:var(--spaceapp-grey);
   font-size: 14px;
   padding: 1rem;
   padding-bottom: 0;
 }
 
-.end form {
+.endd form {
   padding-top: 1rem;
 }
 
-.end form label {
+.endd form label {
   color: var(--spaceapp-grey);
   font-size: 16px;
   padding-bottom: 0;
+}
+
+/* Mobile */
+.mobile legend {
+  color: var(--spaceapp-green);
+  padding: 1rem;
+  font-size: 30px;
+}
+
+.mobile form{
+  padding-right: 7rem;
+  padding-left: 5rem;
+}
+
+.mobile .form-control {
+  border-radius: 10px;
+  border:1px solid var(--spaceapp-green);
+
+}
+
+.mobile input, .mobile select {
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.mobile label {
+  color: var(--spaceapp-grey);
+  padding: 0.5rem;
+  font-size: 18px;
+}
+
+.mobile .space-end form {
+  padding: 0;
+  padding-top: 1rem;
 }
