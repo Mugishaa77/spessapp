@@ -319,5 +319,43 @@ display: flex;
 
 .mobile .bottom-inner {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+}
+
+.mobile .add-photo {
+  color: var(--spaceapp-grey);
+  padding: 1rem;
+
+}
+
+.mobile .add-photo h6 {
+  color: var(--spaceapp-grey);
+}
+
+.mobile .post-space {
+  width: 30%;
+  border-radius: 7px;
+  padding: 1px;
+ padding-top: 2px;
+ padding-bottom: 2px;
+ margin-bottom: 5rem;
+ 
+}
+
+.mobile .bottom button {
+  border: 1px solid var(--navbar-bg);
+  color: var(--spaceapp-bg);
+    background-color: var(--navbar-bg);
+    opacity: 1;
+}
+
+.mobile .bottom button:hover {
+  background-color: var(--spaceapp-bg);
+  color: var(--navbar-bg);
+
 }

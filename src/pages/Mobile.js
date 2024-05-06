@@ -42,7 +42,7 @@ export default function Mobile() {
 
                 </form>
                 <div className="bottom">
-                <div className="bottom-innerinter-text">
+                <div className="bottom-inner inter-small">
                     <div className="add-photo">
                         <h6>Cover Photo</h6>
                         <svg width="90" height="72" viewBox="0 0 97 79" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -64,7 +64,7 @@ export default function Mobile() {
 
                     </div>
                 </div>
-                <button>Post Space</button>
+                <button className="post-space">Post Space</button>
                 </div>
             </div>
             <div className="space-end">
