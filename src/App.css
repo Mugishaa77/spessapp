@@ -310,3 +310,14 @@ display: flex;
   padding: 0;
   padding-top: 1rem;
 }
+
+.mobile .bottom {
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.mobile .bottom-inner {
+  display: flex;
+  justify-content: space-between;
+}

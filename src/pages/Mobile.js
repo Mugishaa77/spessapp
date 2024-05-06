@@ -36,11 +36,36 @@ export default function Mobile() {
                      <input type="location" name="location" id="location" className="form-control" />
 
                      <label>Space Description</label>
-                     <textarea type="text" name="description" id="description" rows="10" placeholder="Describe" className="form-control"></textarea>
+                     <textarea type="text" name="description" id="description" rows="7" placeholder="Describe" className="form-control"></textarea>
 
    
 
                 </form>
+                <div className="bottom">
+                <div className="bottom-innerinter-text">
+                    <div className="add-photo">
+                        <h6>Cover Photo</h6>
+                        <svg width="90" height="72" viewBox="0 0 97 79" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="1.39703" width="95.8229" height="77.1029" rx="7.5" stroke="#686868"/>
+<path d="M54.726 28.8498H54.7541M47.7098 60.9131H29.4678C27.2349 60.9131 25.0934 60.1336 23.5144 58.7459C21.9355 57.3583 21.0485 55.4763 21.0485 53.5139V23.917C21.0485 21.9546 21.9355 20.0726 23.5144 18.6849C25.0934 17.2973 27.2349 16.5178 29.4678 16.5178H63.1454C65.3783 16.5178 67.5198 17.2973 69.0988 18.6849C70.6777 20.0726 71.5648 21.9546 71.5648 23.917V39.9486" stroke="#686868" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21.0485 48.5806L35.0808 36.2486C37.6852 34.0461 40.8958 34.0461 43.5002 36.2486L54.726 46.1142" stroke="#686868" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M51.9196 43.6481L54.7261 41.1817C56.6064 39.5934 58.7954 39.1494 60.8498 39.8499M57.5325 55.9802H74.3713M65.9519 48.581V63.3794" stroke="#686868" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+                    </div>
+                    <div className="add-photo">
+                        <h6>Select Photo</h6>
+                        <svg width="90" height="72" viewBox="0 0 97 79" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="1.39703" width="95.8229" height="77.1029" rx="7.5" stroke="#686868"/>
+<path d="M54.726 28.8498H54.7541M47.7098 60.9131H29.4678C27.2349 60.9131 25.0934 60.1336 23.5144 58.7459C21.9355 57.3583 21.0485 55.4763 21.0485 53.5139V23.917C21.0485 21.9546 21.9355 20.0726 23.5144 18.6849C25.0934 17.2973 27.2349 16.5178 29.4678 16.5178H63.1454C65.3783 16.5178 67.5198 17.2973 69.0988 18.6849C70.6777 20.0726 71.5648 21.9546 71.5648 23.917V39.9486" stroke="#686868" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21.0485 48.5806L35.0808 36.2486C37.6852 34.0461 40.8958 34.0461 43.5002 36.2486L54.726 46.1142" stroke="#686868" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M51.9196 43.6481L54.7261 41.1817C56.6064 39.5934 58.7954 39.1494 60.8498 39.8499M57.5325 55.9802H74.3713M65.9519 48.581V63.3794" stroke="#686868" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+                    </div>
+                </div>
+                <button>Post Space</button>
+                </div>
             </div>
             <div className="space-end">
                 <End/>
