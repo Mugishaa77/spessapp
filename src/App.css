@@ -339,10 +339,8 @@ display: flex;
 
 .mobile .post-space {
   width: 30%;
-  border-radius: 7px;
-  padding: 1px;
- padding-top: 2px;
- padding-bottom: 2px;
+  border-radius: 5px;
+  padding: 0.5rem;
  margin-bottom: 5rem;
  
 }
@@ -358,4 +356,85 @@ display: flex;
   background-color: var(--spaceapp-bg);
   color: var(--navbar-bg);
 
+}
+
+/* Messages */
+.messages {
+  display: flex;
+  padding: 1rem;
+}
+
+.chat-preview {
+  flex: 2;
+}
+
+.chat-preview h5 {
+  margin: 1rem;
+  margin-top: 0;
+  padding: 1rem;
+  color: var(--spaceapp-green);
+  border-bottom: 1px solid var(--navbar-bg);
+}
+
+.chat-preview li {
+  list-style-type: none;
+  border-bottom: 1px solid #f4ebca;
+  margin-top: 1rem;
+}
+.chat-preview span {
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 1px solid var(--navbar-bg);
+
+}
+
+.chat-preview .message-preview {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
+}
+
+.text-preview h6 {
+  padding-left: 1rem;
+  color: var(--spaceapp-green);
+}
+
+.message-preview {
+  font-size: 10px;
+}
+.text-preview p {
+  color: var(--spaceapp-grey);
+  font-size: 13px;
+  padding: 0.5rem;
+  padding-top: 0;
+  margin: 0;
+}
+
+.profile-photo img {
+  height: 48px;
+  width: 48px;
+  border-radius: 50px;
+}
+
+
+.notif h2{
+  white-space: nowrap;
+  font-size: 12px;
+  padding-top: 0.5rem;
+  color: var(--spaceapp-grey);
+}
+
+
+.unread {
+  color: var(--spaceapp-bg);
+  background-color: var(--spaceapp-green);
+  border-radius: 50px;
+  text-align: center;
+  font-weight: bold;
+  padding: 1px;
+  width: 18px; 
+}
+
+.chat-screen {
+  flex: 3;
 }
