@@ -3,6 +3,7 @@ import Two from '../images/two.jfif';
 import Three from '../images/three.jfif';
 import End from '../components/End';
 import SwitchComponent from '../components/SwitchComponent';
+import ChatBubble from '../components/ChatBubble';
 
 export default function Messages (){
     const messages = [
@@ -94,7 +95,9 @@ export default function Messages (){
                 <span className="sender-name"> 
                 <img src={Three} /> 
                 <h6 className="inter-text">Lorem Ipsum</h6></span>
-
+                <div>
+                    <ChatBubble />
+                </div>
             </div>
             <div className="end">
                 <End />
