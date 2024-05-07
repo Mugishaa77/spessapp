@@ -9,7 +9,7 @@ function SwitchComponent() {
   };
 
   return (
-    <div className="switch-container">
+    <div className="switch-container inter-text">
       <div
         className={`switch-tab ${activeTab === 'all' ? 'active' : ''}`}
         onClick={() => handleTabChange('all')}

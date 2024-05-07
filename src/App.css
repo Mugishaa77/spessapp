@@ -368,9 +368,14 @@ display: flex;
   flex: 3;
 }
 
+.switch {
+  padding: 1px;
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
 
 .chat-preview h5 {
-  margin: 1rem;
   padding: 1rem;
   color: var(--spaceapp-green);
  

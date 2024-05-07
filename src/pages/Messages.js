@@ -61,8 +61,8 @@ export default function Messages (){
         <div className="messages">
             <div className="chat-preview">
                 <h5>Messages</h5>
-                <>
-                <SwitchComponent /></>
+                <div className="switch">
+                <SwitchComponent /></div>
                 <ul>
     {messages.map((message, index) => (
     <li key={index}>
@@ -100,5 +100,6 @@ export default function Messages (){
                 <End />
             </div>
         </div>
+        
     );
 }
