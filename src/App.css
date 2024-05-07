@@ -365,7 +365,7 @@ display: flex;
 }
 
 .chat-preview {
-  flex: 2;
+  flex: 3;
 }
 
 
@@ -443,7 +443,7 @@ display: flex;
   
 }
 
-.profile-photo img {
+.profile-photo img, .sender-name img {
   height: 48px;
   width: 48px;
   border-radius: 50px;
@@ -456,6 +456,7 @@ display: flex;
   text-align: center!important;
   font-size: 12px;
   margin: -3px;
+  margin-left: 0;
   height: 18px;
   padding: 2px;
   width: 38px;
@@ -466,5 +467,16 @@ display: flex;
 
 
 .chat-screen {
-  flex: 3;
+  flex: 4;
+ margin: 3.5rem;
+}
+
+.sender-name {
+  display: flex;
+  flex-direction: row;
+}
+
+.sender-name h6 {
+  color: var(--spaceapp-green);
+  padding: 1rem;
 }

@@ -2,6 +2,7 @@ import One from '../images/one.jfif';
 import Two from '../images/two.jfif';
 import Three from '../images/three.jfif';
 import End from '../components/End';
+import SwitchComponent from '../components/SwitchComponent';
 
 export default function Messages (){
     const messages = [
@@ -60,9 +61,10 @@ export default function Messages (){
         <div className="messages">
             <div className="chat-preview">
                 <h5>Messages</h5>
-                <span></span>
+                <>
+                <SwitchComponent /></>
                 <ul>
-  {messages.map((message, index) => (
+    {messages.map((message, index) => (
     <li key={index}>
       <div className="message-preview">
         <div className="profile-photo">
@@ -90,7 +92,7 @@ export default function Messages (){
             </div>
             <div className="chat-screen">
                 <span className="sender-name"> 
-                <img /> 
+                <img src={Three} /> 
                 <h6 className="inter-text">Lorem Ipsum</h6></span>
 
             </div>
