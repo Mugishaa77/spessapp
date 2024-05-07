@@ -368,46 +368,79 @@ display: flex;
   flex: 2;
 }
 
+
 .chat-preview h5 {
   margin: 1rem;
-  margin-top: 0;
   padding: 1rem;
   color: var(--spaceapp-green);
-  border-bottom: 1px solid var(--navbar-bg);
+ 
 }
 
 .chat-preview li {
   list-style-type: none;
   border-bottom: 1px solid #f4ebca;
-  margin-top: 1rem;
+  margin: 0;
+  padding: 0;
 }
 .chat-preview span {
   padding: 1rem;
   margin: 1rem;
-  border-bottom: 1px solid var(--navbar-bg);
+
 
 }
+ 
 
-.chat-preview .message-preview {
-  display: flex;
-  flex-direction: row;
-  padding-top: 1rem;
-}
 
 .text-preview h6 {
-  padding-left: 1rem;
+  padding-left: 0.9rem;
   color: var(--spaceapp-green);
+  margin-top: -2px;
+  padding-top: -2px;
+}
+
+.text-preview h2 {
+  white-space: nowrap;
+  font-size: 12px;
+  color: var(--spaceapp-grey);
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 3px;
+  margin-top: 3px;
 }
 
 .message-preview {
   font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 0.5rem;
+  
 }
-.text-preview p {
+
+.text-preview {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.2rem;
+  margin-top:0;
+}
+
+.time-stamp {
+  margin-bottom: 0;
+}
+
+ .notif {
+  display: flex;
+  justify-content: space-between;
+
+ }
+
+.notif p {
   color: var(--spaceapp-grey);
   font-size: 13px;
-  padding: 0.5rem;
-  padding-top: 0;
-  margin: 0;
+  padding-left: 0.5rem;
+  padding-bottom: 1px;
+    margin-bottom: 1px;
+    opacity: 0.9;
+  
 }
 
 .profile-photo img {
@@ -416,24 +449,21 @@ display: flex;
   border-radius: 50px;
 }
 
-
-.notif h2{
-  white-space: nowrap;
-  font-size: 12px;
-  padding-top: 0.5rem;
-  color: var(--spaceapp-grey);
-}
-
-
-.unread {
-  color: var(--spaceapp-bg);
+.notif .unread {
+  color: var(--spaceapp-bg)!important;
   background-color: var(--spaceapp-green);
   border-radius: 50px;
-  text-align: center;
-  font-weight: bold;
-  padding: 1px;
-  width: 18px; 
+  text-align: center!important;
+  font-size: 12px;
+  margin: -3px;
+  height: 18px;
+  padding: 2px;
+  width: 38px;
+  
 }
+
+
+
 
 .chat-screen {
   flex: 3;
