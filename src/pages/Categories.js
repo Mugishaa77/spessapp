@@ -1,14 +1,58 @@
 import one from '../images/one.jfif';
 import two from '../images/two.jfif';
 import three from '../images/three.jfif';
+import tagline from '../images/tagline.png';
+import Rating from '../components/Rating';
 import End from '../components/End';
 
 export default function Categories () {
+
+    const items = [
+  {
+    tagline: tagline,
+    title: 'Kenya Real Estate',
+    image: two,
+  },
+  {
+    tagline: tagline,
+    title: 'Kenya Real Estate',
+    image: two,
+  },
+  {
+    tagline: tagline,
+    title: 'Kenya Real Estate',
+    image: two,
+  },
+  {
+    tagline: tagline,
+    title: 'Kenya Real Estate',
+    image: two,
+  },
+  {
+    tagline: tagline,
+    title: 'Kenya Real Estate',
+    image: two,
+  },
+  {
+    tagline: tagline,
+    title: 'Kenya Real Estate',
+    image: two,
+  },
+  {
+    tagline: tagline,
+    title: 'Kenya Real Estate',
+    image: two,
+  },
+  
+  // Add more items as needed
+];
+
     return (
         <div className="categories">
             <div className="middle">
+                 
                 <div className="cat">
-            <h2 className="inter-title">Categories</h2>
+                    <h2 className="inter-title">Categories</h2>
             <div className="icons inter-text">
                 <figure>
                     <svg width="100" height="80" viewBox="0 0 124 97" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -108,22 +152,28 @@ export default function Categories () {
             </div>
             </div>
 <div className="viewed">
-            <h2 className="inter-title">Most Viewed</h2>
-            <div className="most-viewed">
-                <img className="" src={one} alt="fav" />
-                 <img className="" src={two} alt="fav" />
-                  <img className="" src={three} alt="fav" />
-                  <img className="" src={one} alt="fav" />
-                 <img className="" src={two} alt="fav" />
-                  <img className="" src={three} alt="fav" />
-                  <img className="" src={one} alt="fav" />
-                 <img className="" src={two} alt="fav" />
-                  <img className="" src={three} alt="fav" />
+            <h2 className="inter-title">Explore</h2>
+             <div className="explore">
+      {items.map((item, index) => (
+        <div className="explore-card" key={index}>
+          <div className="top-card">
+            <img className="tag" src={item.tagline} alt="Tagline" />
+            <h6>{item.title}</h6>
+          </div>
+          <div className="image-part">
+            <img src={item.image} alt="Item" />
+          </div>
+          <div className="rating">
+            <Rating />
+          </div>
+        </div>
+      ))}
+    </div>
                 
 
 
 
-            </div>
+            
             </div>
             </div>
             <div className="end">
