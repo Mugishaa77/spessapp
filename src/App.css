@@ -362,8 +362,9 @@ display: flex;
 /* Mobile */
 .mobile legend {
   color: var(--spaceapp-green);
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: 30px;
+  margin-left: 3rem;
 }
 
 .mobile form{
@@ -448,6 +449,8 @@ display: flex;
 
 .chat-preview {
   flex: 3;
+  box-shadow: var(--box-shadow-one);
+  padding-right: 1rem
 }
 
 .switch {
@@ -555,7 +558,8 @@ display: flex;
 
 .chat-screen {
   flex: 4;
- margin: 3.5rem;
+ margin: 2.5rem;
+ 
 }
 
 .sender-name {
