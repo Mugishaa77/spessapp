@@ -7,6 +7,10 @@ import SideNav from './nav/SideNav';
 import Categories from './pages/Categories';
 import Mobile from './pages/Mobile';
 import Messages from './pages/Messages';
+import Myspace from './pages/Myspace';
+
+// categories
+import Beauty from './categories/Beauty';
 
 import './App.css';
 
@@ -22,9 +26,14 @@ function App() {
 
       <Routes>
         {/* Format <Route path="/" exact element = {<Home />} /> */}
-        <Route path = "/" exact element = {<Categories />} />
+        {/* Pages */}
+        <Route path = "/" element = {<Categories />} />        
         <Route path="/mobile" exact element = {<Mobile />} />
         <Route path="/messages" exact element = {<Messages />} />
+        <Route path="/my-space" exact element = {<Myspace />} />
+
+        {/* Categories */}
+        <Route path="/beauty" exact element = {<Beauty />} />
 
         {/* Redirect to /not-found for all other routes */}
           {/* <Route path="*" element={<Navigate to="/not-found" />} /> */}

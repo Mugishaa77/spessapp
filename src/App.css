@@ -147,13 +147,15 @@ nav {
 }
 
 /* Standard Measurements for each page */
-.categories, .mobile, .messages {
+.categories, .mobile, .messages, .space-page,
+.beauty {
   display: flex;
   background-color: var(--spaceapp-bg);
   margin-left: 250px;
 }
 
-.middle, .post, .inbox {
+.middle, .post, .inbox, .space-page-inner,
+.beauty-section {
   flex: 4;
   padding-top: 2rem;
 }
@@ -202,6 +204,16 @@ nav {
     /* Remove any default margin */
  
   
+}
+
+.cat a {
+  text-decoration: none;
+}
+
+.cat a:hover {
+  transform: translateY(-2px);
+    /* Slight lift on hover */
+    box-shadow: 5px 5px 10px 0 rgba(255, 59, 118, 0.3);
 }
 
 .fav, .viewed{
@@ -570,4 +582,64 @@ display: flex;
 .sender-name h6 {
   color: var(--spaceapp-green);
   padding: 1rem;
+}
+
+
+/* Beauty */
+.beauty h2, .beauty h6 {
+  color: var(--spaceapp-green);
+  margin: 1rem;
+  padding-left: 1rem;
+}
+
+.beauty h6 {
+  padding-left: 1.5rem;
+}
+
+.beauty ul li {
+  list-style-type: none;
+}
+
+.beauty li {
+  display: flex;
+  flex-direction: row;
+}
+
+.beauty ul li img {
+  max-width: 270px;
+  height: 200px;
+  padding: 1rem;
+    border-radius: 32px;
+}
+
+.beauty .beauty-content {
+  padding: 1rem;
+}
+
+.beauty-content {
+  margin: 1rem;
+}
+
+.beauty-content h4 {
+  color: var(--spaceapp-green);
+}
+
+.beauty-content p {
+  color: var(--spaceapp-grey);
+  padding-bottom: 0;
+    
+}
+
+.beauty-content button {
+  background-color: var(--navbar-bg);
+  color: white;
+  border: 1px solid var(--navbar-bg);
+  border-radius: 1px;
+  margin: 1px;
+}
+
+.beauty-content button:hover {
+  color: var(--navbar-bg);
+  background-color: white;
+
 }

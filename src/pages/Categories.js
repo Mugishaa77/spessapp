@@ -4,6 +4,7 @@ import three from '../images/three.jfif';
 import tagline from '../images/tagline.png';
 import Rating from '../components/Rating';
 import End from '../components/End';
+import { Link } from 'react-router-dom';
 
 export default function Categories () {
 
@@ -54,7 +55,8 @@ export default function Categories () {
                 <div className="cat">
                     <h2 className="inter-title">Categories</h2>
             <div className="icons inter-text">
-                <figure>
+                
+                <Link to="/beauty"><figure>
                     <svg width="100" height="80" viewBox="0 0 124 97" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.5" y="0.5" width="123" height="95.0205" rx="7.5" fill="#F5F5F5" stroke="#006766"/>
 <g clip-path="url(#clip0_3_41)">
@@ -67,7 +69,9 @@ export default function Categories () {
 </defs>
 </svg>
 <figcaption>beauty</figcaption>
+
                 </figure>
+                </Link>
                 <figure>
                     <svg width="100" height="80" viewBox="0 0 124 96" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.5" y="0.5" width="123" height="95" rx="7.5" fill="#F5F5F5" stroke="#006766"/>
@@ -141,6 +145,7 @@ export default function Categories () {
 <figcaption>deliveries</figcaption>
                 </figure>
             </div>
+      
 </div>
 <div className="fav">
             <h2 className="inter-title">Favourites</h2>
