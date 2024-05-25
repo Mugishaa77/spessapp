@@ -168,9 +168,9 @@ export default function Categories () {
           <div className="image-part">
             <img src={item.image} alt="Item" />
           </div>
-          <div className="rating">
+          <span className="rating">
             <Rating />
-          </div>
+          </span>
         </div>
       ))}
     </div>

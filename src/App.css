@@ -247,6 +247,11 @@ nav {
   margin-top: 1rem;
 }
 
+.viewed span {
+  padding: 3px;
+}
+
+/* Feed */
 .explore {
       display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -647,5 +652,21 @@ display: flex;
 
 .beauty-content span {
   padding: 2.5px;
+}
+
+/* My Space */
+.slider {
+  height: 500px;
+}
+.space-description p {
+  margin: 1rem;
+}
+
+/* Slider */
+.slide-carousel {
+  width: 500px;
+  height: 500px;
+  
+ 
 }
 

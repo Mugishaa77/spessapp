@@ -30,7 +30,7 @@ function App() {
         <Route path = "/" element = {<Categories />} />        
         <Route path="/mobile" exact element = {<Mobile />} />
         <Route path="/messages" exact element = {<Messages />} />
-        <Route path="/my-space" exact element = {<Myspace />} />
+        <Route path="/space" exact element = {<Myspace />} />
 
         {/* Categories */}
         <Route path="/beauty" exact element = {<Beauty />} />

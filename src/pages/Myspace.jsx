@@ -15,7 +15,7 @@ export default function Myspace () {
                 <ImageSlider />
                 </div>
                 <div className="space-description">
-                    <p className="inter-text">
+                    <p className="inter-small">
                         Lorem ipsum dolor sit amet consectetur. Sit etiam hendrerit non arcu facilisi pellentesque in amet. Odio turpis hac accumsan nunc dolor quis euismod Lorem ipsum dolor sit amet consectetur. Sit etiam hendrerit non arcu facilisi pellentesque in amet. Odio turpis hac accumsan nunc dolor quis euismod Lorem ipsum dolor sit amet consectetur. Sit etiam hendrerit non arcu facilisi pellentesque in amet. Odio turpis hac accumsan nunc dolor  
  More 
  </p>
