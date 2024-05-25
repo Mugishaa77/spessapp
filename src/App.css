@@ -523,6 +523,11 @@ display: flex;
   
 }
 
+.messages li:hover {
+  translate: 2px;
+  box-shadow: var(--box-shadow);
+}
+
 .text-preview {
   display: flex;
   justify-content: space-between;
@@ -655,18 +660,32 @@ display: flex;
 }
 
 /* My Space */
-.slider {
-  height: 500px;
+
+.space-page .sender-name span, 
+.space-page .sender-name img {
+  margin-left: 1rem;
 }
+
+.slider {
+  height: 350px;
+}
+
 .space-description p {
   margin: 1rem;
+  color: var(--spaceapp-grey);
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /* Slider */
 .slide-carousel {
+  margin: 0 auto;
   width: 500px;
-  height: 500px;
-  
- 
+}
+
+.slide-carousel img {
+  margin: 0 auto;
+  height: 300px;
+  object-fit: cover;
 }
 
