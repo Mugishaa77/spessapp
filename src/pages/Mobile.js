@@ -4,7 +4,7 @@ export default function Mobile() {
     return (
         <div className="mobile">
             <div className="post ">
-                <legend className="inter-title">Post Space</legend>
+                <legend className="inter-title">Start a Business</legend>
                 <form className="inter-text">
                     <label>Name of Space</label>
                      <input type="text" id="name" name="name" placeholder="Enter name here" className="form-control" />

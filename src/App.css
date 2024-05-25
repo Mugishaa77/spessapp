@@ -609,7 +609,7 @@ display: flex;
   max-width: 270px;
   height: 200px;
   padding: 1rem;
-    border-radius: 32px;
+    border-radius: 24px;
 }
 
 .beauty .beauty-content {
@@ -634,8 +634,9 @@ display: flex;
   background-color: var(--navbar-bg);
   color: white;
   border: 1px solid var(--navbar-bg);
-  border-radius: 1px;
+  border-radius: 10px;
   margin: 1px;
+  padding: 0.5rem;
 }
 
 .beauty-content button:hover {
@@ -643,3 +644,8 @@ display: flex;
   background-color: white;
 
 }
+
+.beauty-content span {
+  padding: 2.5px;
+}
+

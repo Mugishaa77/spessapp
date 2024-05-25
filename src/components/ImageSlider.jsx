@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
+import space from '../images/space.jfif';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -16,26 +17,27 @@ const ImageSlider = () => {
 
   return (
     <div>
-      <h2> Image Slider</h2>
+      
       <Slider {...settings}>
         <div>
-          <img src="https://via.placeholder.com/600x400?text=Slide+1" alt="Slide 1" />
+          <img src={space} alt="Slide 1" />
         </div>
         <div>
-          <img src="https://via.placeholder.com/600x400?text=Slide+2" alt="Slide 2" />
+          <img src={space} alt="Slide 1" />
         </div>
         <div>
-          <img src="https://via.placeholder.com/600x400?text=Slide+3" alt="Slide 3" />
+          <img src={space} alt="Slide 1" />
         </div>
         <div>
-          <img src="https://via.placeholder.com/600x400?text=Slide+4" alt="Slide 4" />
+          <img src={space} alt="Slide 1" />
         </div>
         <div>
-          <img src="https://via.placeholder.com/600x400?text=Slide+5" alt="Slide 5" />
+          <img src={space} alt="Slide 1" />
         </div>
         <div>
-          <img src="https://via.placeholder.com/600x400?text=Slide+6" alt="Slide 6" />
+          <img src={space} alt="Slide 1" />
         </div>
+       
       </Slider>
     </div>
   );
